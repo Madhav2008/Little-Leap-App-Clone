@@ -58,7 +58,7 @@ class _NavigationState extends State<Navigation> {
               color: Colors.black,
               tabs: [
                 GButton(
-                  icon: LineIcons.home,
+                  icon: Icons.home,
                   text: 'Home',
                 ),
                 GButton(
