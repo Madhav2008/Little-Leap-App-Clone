@@ -15,7 +15,6 @@ class _NavigationState extends State<Navigation> {
     CategoryScreen(),
     PostRecipeScreen(),
     SearchScreenNav(),
-    ProfileScreen()
   ];
   int _page = 0;
   GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
