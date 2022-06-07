@@ -74,7 +74,7 @@ class _SplashScreenState extends State<SplashScreen> {
     // if (token.isEmpty) {
     //   Navigator.pushReplacement(
     //     context,
-    //     MaterialPageRoute(builder: (context) => Wrapper()),
+    //     MaterialPageRoute(builder: (context) => Wrapper(),),
     //   );
     // } else {
     Navigator.pushReplacement(
