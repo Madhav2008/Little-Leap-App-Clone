@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:little_leap_clone/Screens/Splash_Screen.dart';
 
 void main() {
-  runApp(const MyApp(),);
+  runApp(
+    const MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
