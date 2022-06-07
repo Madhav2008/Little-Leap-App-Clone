@@ -7,7 +7,7 @@ class LiveClasses extends StatefulWidget {
   State<LiveClasses> createState() => _LiveClassesState();
 }
 
-class _LiveClassesState extends State<LiveClasses> {
+class _HomeScreenState extends State<LiveClasses> {
   @override
   Widget build(BuildContext context) {
     return Container();
