@@ -33,81 +33,86 @@ class _NavigationState extends State<Navigation> {
     //       snapshot.hasData &&
     //       snapshot.data != ConnectivityResult.none) {
     return Scaffold(
-      bottomNavigationBar: 
-      GNav(
-  rippleColor: Colors.grey.shade800, // tab button ripple color when pressed
-  hoverColor: Colors.grey.shade700, // tab button hover color
-  haptic: true, // haptic feedback
-  tabBorderRadius: 15, 
-  tabActiveBorder: Border.all(color: Colors.black, width: 1), // tab button border
-  tabBorder: Border.all(color: Colors.grey, width: 1), // tab button border
-  tabShadow: [BoxShadow(color: Colors.grey.withOpacity(0.5), blurRadius: 8)], // tab button shadow
-  curve: Curves.easeOutExpo, // tab animation curves
-  duration: Duration(milliseconds: 900), // tab animation duration
-  gap: 8, // the tab button gap between icon and text 
-  color: Colors.grey[800], // unselected icon color
-  activeColor: Colors.purple, // selected icon and text color
-  iconSize: 24, // tab button icon size
-  tabBackgroundColor: Colors.purple.withOpacity(0.1), // selected tab background color
-  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5), // navigation bar padding
-  tabs: [
-    GButton(
-      icon: Icons.home_outlined,
-      text: 'Home',
-    ),
-    GButton(
-      icon: Icons.videocam_outlined,
-      text: 'Likes',
-    ),
-    GButton(
-      icon: Icons.leaderboard_outlined,
-      text: 'Search',
-    ),
-    GButton(
-      icon: Icons.menu,
-      text: 'Profile',
-    )
-  ]
-)
-      // CurvedNavigationBar(
-      //   key: _bottomNavigationKey,
-      //   index: 0,
-      //   height: 50,
-      //   items: [
-      //     Icon(
-      //       Icons.home,
-      //       size: 30,
-      //       color: (_page == 0) ? Colors.green : Colors.white,
-      //     ),
-      //     Icon(
-      //       Icons.videocam_outlined,
-      //       size: 30,
-      //       color: (_page == 1) ? Colors.green : Colors.white,
-      //     ),
-      //     Icon(
-      //       Icons.leaderboard_outlined,
-      //       size: 30,
-      //       color: (_page == 2) ? Colors.green : Colors.white,
-      //     ),
-      //     Icon(
-      //       Icons.leaderboard_outlined,
-      //       size: 30,
-      //       color: (_page == 3) ? Colors.green : Colors.white,
-      //     ),
-      //   ],
-      //   color: Colors.green,
-      //   buttonBackgroundColor: Colors.grey[50],
-      //   backgroundColor: Colors.green.shade400,
-      //   animationDuration: Duration(milliseconds: 500),
-      //   onTap: (index) {
-      //     setState(() {
-      //       _page = index;
-      //     });
-      //   },
-      //   letIndexChange: (index) => true,
-      // ),
-      // body: _tabItems[_page],
-    );
+        bottomNavigationBar: GNav(
+            rippleColor:
+                Colors.grey.shade800, // tab button ripple color when pressed
+            hoverColor: Colors.grey.shade700, // tab button hover color
+            haptic: true, // haptic feedback
+            tabBorderRadius: 15,
+            tabActiveBorder:
+                Border.all(color: Colors.black, width: 1), // tab button border
+            tabBorder:
+                Border.all(color: Colors.grey, width: 1), // tab button border
+            tabShadow: [
+              BoxShadow(color: Colors.grey.withOpacity(0.5), blurRadius: 8)
+            ], // tab button shadow
+            curve: Curves.easeOutExpo, // tab animation curves
+            duration: Duration(milliseconds: 900), // tab animation duration
+            gap: 8, // the tab button gap between icon and text
+            color: Colors.grey[800], // unselected icon color
+            activeColor: Colors.purple, // selected icon and text color
+            iconSize: 24, // tab button icon size
+            tabBackgroundColor:
+                Colors.purple.withOpacity(0.1), // selected tab background color
+            padding: EdgeInsets.symmetric(
+                horizontal: 20, vertical: 5), // navigation bar padding
+            tabs: [
+              GButton(
+                icon: Icons.home_outlined,
+                text: 'Home',
+              ),
+              GButton(
+                icon: Icons.videocam_outlined,
+                text: 'Likes',
+              ),
+              GButton(
+                icon: Icons.leaderboard_outlined,
+                text: 'Search',
+              ),
+              GButton(
+                icon: Icons.menu,
+                text: 'Profile',
+              )
+            ])
+        // CurvedNavigationBar(
+        //   key: _bottomNavigationKey,
+        //   index: 0,
+        //   height: 50,
+        //   items: [
+        //     Icon(
+        //       Icons.home,
+        //       size: 30,
+        //       color: (_page == 0) ? Colors.green : Colors.white,
+        //     ),
+        //     Icon(
+        //       Icons.videocam_outlined,
+        //       size: 30,
+        //       color: (_page == 1) ? Colors.green : Colors.white,
+        //     ),
+        //     Icon(
+        //       Icons.leaderboard_outlined,
+        //       size: 30,
+        //       color: (_page == 2) ? Colors.green : Colors.white,
+        //     ),
+        //     Icon(
+        //       Icons.leaderboard_outlined,
+        //       size: 30,
+        //       color: (_page == 3) ? Colors.green : Colors.white,
+        //     ),
+        //   ],
+        //   color: Colors.green,
+        //   buttonBackgroundColor: Colors.grey[50],
+        //   backgroundColor: Colors.green.shade400,
+        //   animationDuration: Duration(milliseconds: 500),
+        //   onTap: (index) {
+        //     setState(() {
+        //       _page = index;
+        //     });
+        //   },
+        //   letIndexChange: (index) => true,
+        // ),
+        // body: _tabItems[_page],
+        );
     //     } else {
     //       return Center(
     //           child: Container(
