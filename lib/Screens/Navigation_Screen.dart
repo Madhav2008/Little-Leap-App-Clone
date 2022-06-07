@@ -43,7 +43,7 @@ class _NavigationState extends State<Navigation> {
             color: (_page == 0) ? Colors.greenAccent : Colors.white,
           ),
           Icon(
-            Icons.videocam,
+            Icons.videocam_outlined,
             size: 30,
             color: (_page == 1) ? Colors.greenAccent : Colors.white,
           ),
