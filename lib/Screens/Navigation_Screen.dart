@@ -35,7 +35,7 @@ class _NavigationState extends State<Navigation> {
     return Scaffold(
       bottomNavigationBar: 
       GNav(
-  rippleColor: Colors.grey800, // tab button ripple color when pressed
+  rippleColor: Colors.grey.shade800, // tab button ripple color when pressed
   hoverColor: Colors.grey[700], // tab button hover color
   haptic: true, // haptic feedback
   tabBorderRadius: 15, 
