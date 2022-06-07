@@ -4,7 +4,7 @@ class LiveClasses extends StatefulWidget {
   const LiveClasses({Key? key}) : super(key: key);
 
   @override
-  State<LiveClasses> createState() => _HomeScreenState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<LiveClasses> {
