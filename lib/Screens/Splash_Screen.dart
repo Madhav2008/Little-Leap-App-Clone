@@ -37,7 +37,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child: Container(
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height / 2,
-                color: Color(0xFF3bb78f),
+                color: Color.fromARGB(204, 55, 226, 83),
               ),
               clipper: ZigZagClipper(),
             ),
@@ -48,7 +48,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child: Container(
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height / 2,
-                color: Color(0xFF0bab64),
+                color: Color.fromARGB(153, 55, 226, 78),
               ),
               clipper: ZigZagClipper(),
             ),
@@ -82,12 +82,12 @@ class _SplashScreenState extends State<SplashScreen> {
     //   ),
     // );
     // } else {
-    // Navigator.pushReplacement(
-    //   context,
-    //   MaterialPageRoute(
-    //     builder: (context) => LoginScreen(),
-    //   ),
-    // );
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(
+        builder: (context) => LoginScreen(),
+      ),
+    );
     // }
   }
 }
