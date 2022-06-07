@@ -19,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
         backgroundColor: Colors.redAccent,
         body: Stack(
           children: <Widget>[
-            new Positioned(
+           Positioned(
               child: ClipPath(
                 child: Container(
                   width: MediaQuery.of(context).size.width,
