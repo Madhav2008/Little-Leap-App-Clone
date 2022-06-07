@@ -69,7 +69,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   void navigationPage() async {
-    final prefs = await SharedPreferences.getInstance();
+    // final prefs = await SharedPreferences.getInstance();
     final token = prefs.getString('token') ?? '';
     if (token.isEmpty) {
       Navigator.pushReplacement(
