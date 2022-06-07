@@ -18,50 +18,51 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.redAccent,
-        body: Stack(
-          children: <Widget>[
-            Positioned(
-              child: ClipPath(
-                child: Container(
-                  width: MediaQuery.of(context).size.width,
-                  height: MediaQuery.of(context).size.height / 2,
-                  color: Color.fromRGBO(226, 55, 68, 1.0),
-                ),
-                clipper: ZigZagClipper(),
+      backgroundColor: Colors.redAccent,
+      body: Stack(
+        children: <Widget>[
+          Positioned(
+            child: ClipPath(
+              child: Container(
+                width: MediaQuery.of(context).size.width,
+                height: MediaQuery.of(context).size.height / 2,
+                color: Color.fromRGBO(226, 55, 68, 1.0),
               ),
+              clipper: ZigZagClipper(),
             ),
-            Positioned(
-              top: 40,
-              child: ClipPath(
-                child: Container(
-                  width: MediaQuery.of(context).size.width,
-                  height: MediaQuery.of(context).size.height / 2,
-                  color: Color.fromRGBO(226, 55, 68, 0.80),
-                ),
-                clipper: ZigZagClipper(),
+          ),
+          Positioned(
+            top: 40,
+            child: ClipPath(
+              child: Container(
+                width: MediaQuery.of(context).size.width,
+                height: MediaQuery.of(context).size.height / 2,
+                color: Color.fromRGBO(226, 55, 68, 0.80),
               ),
+              clipper: ZigZagClipper(),
             ),
-            Positioned(
-              top: 80,
-              child: ClipPath(
-                child: Container(
-                  width: MediaQuery.of(context).size.width,
-                  height: MediaQuery.of(context).size.height / 2,
-                  color: Color.fromRGBO(226, 55, 68, 0.60),
-                ),
-                clipper: ZigZagClipper(),
+          ),
+          Positioned(
+            top: 80,
+            child: ClipPath(
+              child: Container(
+                width: MediaQuery.of(context).size.width,
+                height: MediaQuery.of(context).size.height / 2,
+                color: Color.fromRGBO(226, 55, 68, 0.60),
               ),
+              clipper: ZigZagClipper(),
             ),
-            Center(
-              child: Image.asset(
-                "assets/images/Logo4Recipo.png",
-                width: 500,
-                height: 500,
-              ),
-            )
-          ],
-        ),);
+          ),
+          Center(
+            child: Image.asset(
+              "assets/images/Logo4Recipo.png",
+              width: 500,
+              height: 500,
+            ),
+          )
+        ],
+      ),
+    );
   }
 
   @override
