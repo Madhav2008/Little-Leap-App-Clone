@@ -70,7 +70,7 @@ class _NavigationState extends State<Navigation> {
                   text: 'Search',
                 ),
                 GButton(
-                  icon: LineIcons.user,
+                  icon: Icons.menu,
                   text: 'Profile',
                 ),
               ],
