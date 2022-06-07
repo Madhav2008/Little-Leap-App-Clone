@@ -33,43 +33,43 @@ class _NavigationState extends State<Navigation> {
     //       snapshot.data != ConnectivityResult.none) {
     return Scaffold(
       bottomNavigationBar: 
-      CurvedNavigationBar(
-        key: _bottomNavigationKey,
-        index: 0,
-        height: 50,
-        items: [
-          Icon(
-            Icons.home,
-            size: 30,
-            color: (_page == 0) ? Colors.green : Colors.white,
-          ),
-          Icon(
-            Icons.videocam_outlined,
-            size: 30,
-            color: (_page == 1) ? Colors.green : Colors.white,
-          ),
-          Icon(
-            Icons.leaderboard_outlined,
-            size: 30,
-            color: (_page == 2) ? Colors.green : Colors.white,
-          ),
-          Icon(
-            Icons.menu,
-            size: 30,
-            color: (_page == 3) ? Colors.green : Colors.white,
-          ),
-        ],
-        color: Colors.green,
-        buttonBackgroundColor: Colors.grey[50],
-        backgroundColor: Colors.green.shade400,
-        animationDuration: Duration(milliseconds: 500),
-        onTap: (index) {
-          setState(() {
-            _page = index;
-          });
-        },
-        letIndexChange: (index) => true,
-      ),
+      // CurvedNavigationBar(
+      //   key: _bottomNavigationKey,
+      //   index: 0,
+      //   height: 50,
+      //   items: [
+      //     Icon(
+      //       Icons.home,
+      //       size: 30,
+      //       color: (_page == 0) ? Colors.green : Colors.white,
+      //     ),
+      //     Icon(
+      //       Icons.videocam_outlined,
+      //       size: 30,
+      //       color: (_page == 1) ? Colors.green : Colors.white,
+      //     ),
+      //     Icon(
+      //       Icons.leaderboard_outlined,
+      //       size: 30,
+      //       color: (_page == 2) ? Colors.green : Colors.white,
+      //     ),
+      //     Icon(
+      //       Icons.menu,
+      //       size: 30,
+      //       color: (_page == 3) ? Colors.green : Colors.white,
+      //     ),
+      //   ],
+      //   color: Colors.green,
+      //   buttonBackgroundColor: Colors.grey[50],
+      //   backgroundColor: Colors.green.shade400,
+      //   animationDuration: Duration(milliseconds: 500),
+      //   onTap: (index) {
+      //     setState(() {
+      //       _page = index;
+      //     });
+      //   },
+      //   letIndexChange: (index) => true,
+      // ),
       body: _tabItems[_page],
     );
     //     } else {
