@@ -66,7 +66,7 @@ class _NavigationState extends State<Navigation> {
                   text: 'Likes',
                 ),
                 GButton(
-                  icon: LineIcons.search,
+                  icon: Icons.leaderboard_outlined,
                   text: 'Search',
                 ),
                 GButton(
