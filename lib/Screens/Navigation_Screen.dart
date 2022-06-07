@@ -7,7 +7,6 @@ import 'package:Foodybite/screens/search_screen_nav/search_screen_nav.dart';
 // import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:flutter/rendering.dart';
 
 class Navigation extends StatefulWidget {
   const Navigation({Key? key}) : super(key: key);
