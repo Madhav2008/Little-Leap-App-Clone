@@ -71,7 +71,7 @@ class _NavigationState extends State<Navigation> {
                 ),
                 GButton(
                   icon: Icons.menu,
-                  text: 'Profile',
+                  text: 'Menu',
                 ),
               ],
               // selectedIndex: _selectedIndex,
