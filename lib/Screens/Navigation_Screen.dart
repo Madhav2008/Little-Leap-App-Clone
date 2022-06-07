@@ -1,128 +1,128 @@
-// // import 'package:connectivity/connectivity.dart';
-// import 'package:flutter/material.dart';
-// import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-// import 'package:little_leap_clone/Screens/Home_Screen.dart';
-// import 'package:little_leap_clone/Screens/Leaderboard.dart';
-// import 'package:little_leap_clone/Screens/Live_Classes.dart';
+// import 'package:connectivity/connectivity.dart';
+import 'package:flutter/material.dart';
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:little_leap_clone/Screens/Home_Screen.dart';
+import 'package:little_leap_clone/Screens/Leaderboard.dart';
+import 'package:little_leap_clone/Screens/Live_Classes.dart';
 
-// class Navigation extends StatefulWidget {
-//   const Navigation({Key? key}) : super(key: key);
+class Navigation extends StatefulWidget {
+  const Navigation({Key? key}) : super(key: key);
 
-//   @override
-//   _NavigationState createState() => _NavigationState();
-// }
+  @override
+  _NavigationState createState() => _NavigationState();
+}
 
-// class _NavigationState extends State<Navigation> {
-//   final List<Widget> _tabItems = [
-//     HomeScreen(),
-//     LiveClasses(),
-//     Leaderboard(),
-//   ];
-//   int _page = 0;
-//   GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
+class _NavigationState extends State<Navigation> {
+  final List<Widget> _tabItems = [
+    HomeScreen(),
+    LiveClasses(),
+    Leaderboard(),
+  ];
+  int _page = 0;
+  GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
 
-//   @override
-//   Widget build(BuildContext context) {
-//     // return
-//     // StreamBuilder(
-//     // stream: Connectivity().onConnectivityChanged,
-//     // builder:
-//     //     (BuildContext context, AsyncSnapshot<ConnectivityResult> snapshot) {
-//     //   if (snapshot != null &&
-//     //       snapshot.hasData &&
-//     //       snapshot.data != ConnectivityResult.none) {
-//     return Scaffold(
-//       bottomNavigationBar: CurvedNavigationBar(
-//         key: _bottomNavigationKey,
-//         index: 0,
-//         height: 50,
-//         items: [
-//           Icon(
-//             Icons.home,
-//             size: 30,
-//             color: (_page == 0) ? Colors.green : Colors.white,
-//           ),
-//           Icon(
-//             Icons.videocam_outlined,
-//             size: 30,
-//             color: (_page == 1) ? Colors.green : Colors.white,
-//           ),
-//           Icon(
-//             Icons.leaderboard_outlined,
-//             size: 30,
-//             color: (_page == 2) ? Colors.green : Colors.white,
-//           ),
-//           Icon(
-//             Icons.menu,
-//             size: 30,
-//             color: (_page == 3) ? Colors.green : Colors.white,
-//           ),
-//         ],
-//         color: Colors.green,
-//         buttonBackgroundColor: Colors.grey[50],
-//         backgroundColor: Colors.green.shade400,
-//         animationDuration: Duration(milliseconds: 500),
-//         onTap: (index) {
-//           setState(() {
-//             _page = index;
-//           });
-//         },
-//         letIndexChange: (index) => true,
-//       ),
-//       body: _tabItems[_page],
-//     );
-//     //     } else {
-//     //       return Center(
-//     //           child: Container(
-//     //         color: Colors.white,
-//     //         child: Column(
-//     //           mainAxisAlignment: MainAxisAlignment.center,
-//     //           children: [
-//     //             Padding(
-//     //               padding: const EdgeInsets.all(8.0),
-//     //               child: Row(
-//     //                 mainAxisAlignment: MainAxisAlignment.center,
-//     //                 children: [
-//     //                   // Icon(Icons.favorite),
-//     //                   // SizedBox(width:5),
-//     //                   Image.asset(
-//     //                     'assets/images/no-internet.png',
-//     //                     width: 130,
-//     //                     height: 130,
-//     //                     // color: Colors.white,
-//     //                     // color: Colors.yellow,
-//     //                   ),
-//     //                   // SizedBox(width:5),
-//     //                   // Icon(Icons.favorite),
-//     //                 ],
-//     //               ),
-//     //             ),
-//     //             Padding(
-//     //               padding: const EdgeInsets.all(8.0),
-//     //               child: Row(
-//     //                 mainAxisAlignment: MainAxisAlignment.center,
-//     //                 children: [
-//     //                   // Icon(Icons.wifi_off),
-//     //                   // SizedBox(width:5),
-//     //                   Text(
-//     //                     "No Internet Access",
-//     //                     style: TextStyle(
-//     //                       fontWeight: FontWeight.bold,
-//     //                       fontSize: 25,
-//     //                       color: Colors.black,
-//     //                       // color: Colors.yellow,
-//     //                     ),
-//     //                   ),
-//     //                   // SizedBox(width:5),
-//     //                   // Icon(Icons.wifi_off),
-//     //                 ],
-//     //               ),
-//     //             ),
-//     //           ],
-//     //         ),
-//     //       ));
-//     //     }
-//     //   },
-//     // );
-//   }
-// }
+  @override
+  Widget build(BuildContext context) {
+    // return
+    // StreamBuilder(
+    // stream: Connectivity().onConnectivityChanged,
+    // builder:
+    //     (BuildContext context, AsyncSnapshot<ConnectivityResult> snapshot) {
+    //   if (snapshot != null &&
+    //       snapshot.hasData &&
+    //       snapshot.data != ConnectivityResult.none) {
+    return Scaffold(
+      bottomNavigationBar: CurvedNavigationBar(
+        key: _bottomNavigationKey,
+        index: 0,
+        height: 50,
+        items: [
+          Icon(
+            Icons.home,
+            size: 30,
+            color: (_page == 0) ? Colors.green : Colors.white,
+          ),
+          Icon(
+            Icons.videocam_outlined,
+            size: 30,
+            color: (_page == 1) ? Colors.green : Colors.white,
+          ),
+          Icon(
+            Icons.leaderboard_outlined,
+            size: 30,
+            color: (_page == 2) ? Colors.green : Colors.white,
+          ),
+          Icon(
+            Icons.menu,
+            size: 30,
+            color: (_page == 3) ? Colors.green : Colors.white,
+          ),
+        ],
+        color: Colors.green,
+        buttonBackgroundColor: Colors.grey[50],
+        backgroundColor: Colors.green.shade400,
+        animationDuration: Duration(milliseconds: 500),
+        onTap: (index) {
+          setState(() {
+            _page = index;
+          });
+        },
+        letIndexChange: (index) => true,
+      ),
+      body: _tabItems[_page],
+    );
+    //     } else {
+    //       return Center(
+    //           child: Container(
+    //         color: Colors.white,
+    //         child: Column(
+    //           mainAxisAlignment: MainAxisAlignment.center,
+    //           children: [
+    //             Padding(
+    //               padding: const EdgeInsets.all(8.0),
+    //               child: Row(
+    //                 mainAxisAlignment: MainAxisAlignment.center,
+    //                 children: [
+    //                   // Icon(Icons.favorite),
+    //                   // SizedBox(width:5),
+    //                   Image.asset(
+    //                     'assets/images/no-internet.png',
+    //                     width: 130,
+    //                     height: 130,
+    //                     // color: Colors.white,
+    //                     // color: Colors.yellow,
+    //                   ),
+    //                   // SizedBox(width:5),
+    //                   // Icon(Icons.favorite),
+    //                 ],
+    //               ),
+    //             ),
+    //             Padding(
+    //               padding: const EdgeInsets.all(8.0),
+    //               child: Row(
+    //                 mainAxisAlignment: MainAxisAlignment.center,
+    //                 children: [
+    //                   // Icon(Icons.wifi_off),
+    //                   // SizedBox(width:5),
+    //                   Text(
+    //                     "No Internet Access",
+    //                     style: TextStyle(
+    //                       fontWeight: FontWeight.bold,
+    //                       fontSize: 25,
+    //                       color: Colors.black,
+    //                       // color: Colors.yellow,
+    //                     ),
+    //                   ),
+    //                   // SizedBox(width:5),
+    //                   // Icon(Icons.wifi_off),
+    //                 ],
+    //               ),
+    //             ),
+    //           ],
+    //         ),
+    //       ));
+    //     }
+    //   },
+    // );
+  }
+}
