@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class LiveClasses extends StatefulWidget {
-  const LiveClasses({Key? key}) : super(key: key);
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
