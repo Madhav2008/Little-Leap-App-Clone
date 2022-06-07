@@ -60,7 +60,7 @@ class _NavigationState extends State<Navigation> {
         ],
         color: Color.fromARGB(153, 55, 226, 112),
         buttonBackgroundColor: Colors.grey[50],
-        backgroundColor: Color.fromRGBO(226, 55, 68, 0.60),
+        backgroundColor: Color.fromARGB(153, 55, 226, 112),
         animationDuration: Duration(milliseconds: 500),
         onTap: (index) {
           setState(() {
