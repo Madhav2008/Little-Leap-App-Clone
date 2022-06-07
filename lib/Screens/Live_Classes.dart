@@ -4,7 +4,7 @@ class LiveClasses extends StatefulWidget {
   const LiveClasses({Key? key}) : super(key: key);
 
   @override
-  State<LiveClasses> createState() => _LeaderboardState();
+  State<LiveClasses> createState() => _LiveClassesState();
 }
 
 class _LiveClassesState extends State<LiveClasses> {
