@@ -57,7 +57,7 @@ class _SplashScreenState extends State<SplashScreen> {
             child: Image.asset(
               "../assets/images/little-leap-white.png",
               width: 300,
-              height: 400,
+              height: 300,
             ),
           )
         ],
