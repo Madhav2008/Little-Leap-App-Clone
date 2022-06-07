@@ -54,11 +54,12 @@ class _SplashScreenState extends State<SplashScreen> {
               ),
             ),
             Center(
-                child: Image.asset(
-              "assets/images/Logo4Recipo.png",
-              width: 500,
-              height: 500,
-            ),)
+              child: Image.asset(
+                "assets/images/Logo4Recipo.png",
+                width: 500,
+                height: 500,
+              ),
+            )
           ],
         ));
   }
