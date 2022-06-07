@@ -26,7 +26,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child: Container(
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height / 2,
-                color: Color.fromRGBO(255, 55, 68, 1.0),
+                color: Color.fromARGB(255, 55, 255, 88),
               ),
               clipper: ZigZagClipper(),
             ),
