@@ -74,7 +74,7 @@ class _NavigationState extends State<Navigation> {
                   text: 'Profile',
                 ),
               ],
-              selectedIndex: _selectedIndex,
+              // selectedIndex: _selectedIndex,
               onTabChange: (index) {
                 setState(() {
                   // _selectedIndex = index;
