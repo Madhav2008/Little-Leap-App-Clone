@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class LiveClasses extends StatefulWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
   @override
