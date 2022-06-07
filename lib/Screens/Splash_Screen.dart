@@ -53,7 +53,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 clipper: ZigZagClipper(),
               ),
             ),
-            new Center(
+            Center(
                 child: Image.asset(
               "assets/images/Logo4Recipo.png",
               width: 500,
