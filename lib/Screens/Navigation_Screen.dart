@@ -52,7 +52,7 @@ class _NavigationState extends State<Navigation> {
   padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5), // navigation bar padding
   tabs: [
     GButton(
-      icon: Icons.home,
+      icon: Icons.home_outlined,
       text: 'Home',
     ),
     GButton(
