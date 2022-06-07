@@ -1,4 +1,3 @@
-
 // import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
@@ -23,16 +22,14 @@ class _NavigationState extends State<Navigation> {
 
   @override
   Widget build(BuildContext context) {
-    return
-      StreamBuilder(
+    return StreamBuilder(
       stream: Connectivity().onConnectivityChanged,
       builder:
           (BuildContext context, AsyncSnapshot<ConnectivityResult> snapshot) {
         if (snapshot != null &&
             snapshot.hasData &&
             snapshot.data != ConnectivityResult.none) {
-          return
-            Scaffold(
+          return Scaffold(
             bottomNavigationBar: CurvedNavigationBar(
               key: _bottomNavigationKey,
               index: 0,
@@ -69,8 +66,8 @@ class _NavigationState extends State<Navigation> {
           );
         } else {
           return Center(
-            child: Container(
-              color: Colors.white,
+              child: Container(
+            color: Colors.white,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -116,8 +113,7 @@ class _NavigationState extends State<Navigation> {
                 ),
               ],
             ),
-            )
-          );
+          ));
         }
       },
     );
