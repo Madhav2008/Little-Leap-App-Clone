@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Leaderboard extends StatefulWidget {
+class LiveClasses extends StatefulWidget {
   const LiveClasses({Key? key}) : super(key: key);
 
   @override
