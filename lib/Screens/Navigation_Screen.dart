@@ -55,7 +55,7 @@ class _NavigationState extends State<Navigation> {
           Icon(
             Icons.menu,
             size: 30,
-            color: (_page == 3) ? Colors.greenAccent : Colors.white,
+            color: (_page == 3) ? Colors.green : Colors.white,
           ),
         ],
         color: Color.fromARGB(153, 55, 226, 112),
