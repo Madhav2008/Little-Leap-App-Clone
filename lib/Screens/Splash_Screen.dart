@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.redAccent,
-        body: new Stack(
+        body: Stack(
           children: <Widget>[
             new Positioned(
               child: ClipPath(
