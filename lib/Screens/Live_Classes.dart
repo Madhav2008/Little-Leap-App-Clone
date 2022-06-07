@@ -7,7 +7,7 @@ class Leaderboard extends StatefulWidget {
   State<LiveClasses> createState() => _LeaderboardState();
 }
 
-class _LeaderboardState extends State<LiveClasses> {
+class _LiveClassesState extends State<LiveClasses> {
   @override
   Widget build(BuildContext context) {
     return Container();
