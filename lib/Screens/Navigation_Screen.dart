@@ -32,7 +32,8 @@ class _NavigationState extends State<Navigation> {
     //       snapshot.hasData &&
     //       snapshot.data != ConnectivityResult.none) {
     return Scaffold(
-      bottomNavigationBar: CurvedNavigationBar(
+      bottomNavigationBar: 
+      CurvedNavigationBar(
         key: _bottomNavigationKey,
         index: 0,
         height: 50,
