@@ -49,7 +49,7 @@ background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);,
               child: Container(
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height / 2,
-                color: Color.fromARGB(153, 55, 226, 78),
+                color: Color(0xFF0bab64),
               ),
               clipper: ZigZagClipper(),
             ),
