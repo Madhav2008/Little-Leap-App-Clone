@@ -18,7 +18,8 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green,
+      backgroundColor: background-color: #3bb78f;
+background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);,
       body: Stack(
         children: <Widget>[
           Positioned(
@@ -37,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child: Container(
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height / 2,
-                color: Color.fromARGB(204, 55, 226, 83),
+                color: Color(0xFF3bb78f),
               ),
               clipper: ZigZagClipper(),
             ),
