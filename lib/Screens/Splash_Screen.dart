@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:Colors.green,
+      backgroundColor: Colors.green,
       body: Stack(
         children: <Widget>[
           Positioned(
