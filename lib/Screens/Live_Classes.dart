@@ -4,7 +4,7 @@ class Leaderboard extends StatefulWidget {
   const Leaderboard({Key? key}) : super(key: key);
 
   @override
-  State<Leaderboard> createState() => _LeaderboardState();
+  State<LiveClasses> createState() => _LeaderboardState();
 }
 
 class _LeaderboardState extends State<Leaderboard> {
