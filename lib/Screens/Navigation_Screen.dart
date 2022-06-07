@@ -56,7 +56,7 @@ class _NavigationState extends State<Navigation> {
       text: 'Home',
     ),
     GButton(
-      icon: LineIcons.heart_o,
+      icon: Icons.heart,
       text: 'Likes',
     ),
     GButton(
