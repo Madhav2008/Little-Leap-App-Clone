@@ -17,7 +17,6 @@ class _NavigationState extends State<Navigation> {
     HomeScreen(),
     LiveClasses(),
     Leaderboard(),
-    SearchScreenNav(),
   ];
   int _page = 0;
   GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
