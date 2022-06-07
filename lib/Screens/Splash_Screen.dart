@@ -6,7 +6,7 @@ import 'package:little_leap_clone/Widgets/Zig_Zag_Zipper.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
-  _SplashScreenState createState() => new _SplashScreenState();
+  _SplashScreenState createState() => _SplashScreenState();
 }
 
 class _SplashScreenState extends State<SplashScreen> {
