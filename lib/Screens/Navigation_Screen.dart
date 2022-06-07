@@ -64,7 +64,7 @@ class _NavigationState extends State<Navigation> {
       text: 'Search',
     ),
     GButton(
-      icon: LineIcons.user,
+      icon: Icons.menu,
       text: 'Profile',
     )
   ]
@@ -90,7 +90,7 @@ class _NavigationState extends State<Navigation> {
       //       color: (_page == 2) ? Colors.green : Colors.white,
       //     ),
       //     Icon(
-      //       Icons.menu,
+      //       Icons.leaderboard_outlined,
       //       size: 30,
       //       color: (_page == 3) ? Colors.green : Colors.white,
       //     ),
