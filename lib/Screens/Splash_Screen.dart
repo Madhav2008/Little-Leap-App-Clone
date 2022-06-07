@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:little_leap_clone/Screens/Login_Screen.dart';
 import 'package:little_leap_clone/Widgets/Zig_Zag_Zipper.dart';
 // import 'package:shared_preferences/shared_preferences.dart';
 
@@ -82,7 +83,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
-        builder: (context) => Wrapper(),
+        builder: (context) => LoginScreen(),
       ),
     );
     // }
