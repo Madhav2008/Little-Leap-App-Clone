@@ -31,7 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 clipper: ZigZagClipper(),
               ),
             ),
-            new Positioned(
+           Positioned(
               top: 40,
               child: ClipPath(
                 child: Container(
