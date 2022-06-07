@@ -18,8 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: background-color: #3bb78f;
-background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);,
+      backgroundColor:Colors.green,
       body: Stack(
         children: <Widget>[
           Positioned(
