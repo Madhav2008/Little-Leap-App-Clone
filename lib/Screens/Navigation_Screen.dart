@@ -67,7 +67,7 @@ class _NavigationState extends State<Navigation> {
                 ),
                 GButton(
                   icon: Icons.leaderboard_outlined,
-                  text: 'Search',
+                  text: 'Leaderboard',
                 ),
                 GButton(
                   icon: Icons.menu,
