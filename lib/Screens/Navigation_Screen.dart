@@ -56,7 +56,7 @@ class _NavigationState extends State<Navigation> {
       text: 'Home',
     ),
     GButton(
-      icon: Icons.videocam,
+      icon: Icons.videocam_outlined,
       text: 'Likes',
     ),
     GButton(
