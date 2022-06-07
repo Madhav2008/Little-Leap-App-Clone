@@ -38,7 +38,7 @@ class _NavigationState extends State<Navigation> {
         height: 50,
         items: [
           Icon(
-            Icons.home_filled,
+            Icons.home,
             size: 30,
             color: (_page == 0) ? Colors.greenAccent : Colors.white,
           ),
