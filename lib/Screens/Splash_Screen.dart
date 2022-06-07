@@ -58,7 +58,7 @@ class _SplashScreenState extends State<SplashScreen> {
               "assets/images/Logo4Recipo.png",
               width: 500,
               height: 500,
-            ))
+            ),)
           ],
         ));
   }
