@@ -72,12 +72,12 @@ class _SplashScreenState extends State<SplashScreen> {
     // final prefs = await SharedPreferences.getInstance();
     // final token = prefs.getString('token') ?? '';
     // if (token.isEmpty) {
-    Navigator.pushReplacement(
-      context,
-      MaterialPageRoute(
-        builder: (context) => Wrapper(),
-      ),
-    );
+    // Navigator.pushReplacement(
+    //   context,
+    //   MaterialPageRoute(
+    //     builder: (context) => Wrapper(),
+    //   ),
+    // );
     // } else {
     Navigator.pushReplacement(
       context,
