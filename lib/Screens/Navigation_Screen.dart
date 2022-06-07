@@ -50,7 +50,7 @@ class _NavigationState extends State<Navigation> {
           Icon(
             Icons.leaderboard_outlined,
             size: 30,
-            color: (_page == 2) ? Colors.greenAccent : Colors.white,
+            color: (_page == 2) ? Colors.green : Colors.white,
           ),
           Icon(
             Icons.menu,
