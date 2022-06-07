@@ -77,10 +77,12 @@ class _SplashScreenState extends State<SplashScreen> {
     //     MaterialPageRoute(builder: (context) => Wrapper()),
     //   );
     // } else {
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (context) => Wrapper(),),
-      );
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(
+        builder: (context) => Wrapper(),
+      ),
+    );
     // }
   }
 }
