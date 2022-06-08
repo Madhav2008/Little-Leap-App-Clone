@@ -37,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 subtitle: Text(
                   'Let\'s take a little leap',
                   style: TextStyle(
-                    fontSize: 25,
+                    fontSize: 15,
                     color: Colors.grey,
                     fontWeight: FontWeight.bold,
                   ),
