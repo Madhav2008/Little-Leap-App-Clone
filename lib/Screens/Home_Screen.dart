@@ -42,9 +42,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 trailing: Container(
-                  decoration: BoxDecoration(
-                    color: Colors.white,border: Border.all(1)
-                  ),
+                  decoration:
+                      BoxDecoration(color: Colors.white, border: Border.all()),
                   child: Row(),
                 ),
               ),
