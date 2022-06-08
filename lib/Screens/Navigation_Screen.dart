@@ -51,7 +51,7 @@ class _NavigationState extends State<Navigation> {
             )
           ],
           image: DecorationImage(
-            opacity: 1,
+            opacity: 1,colorFilter: ColorFilter(),
             fit: BoxFit.cover,
             image: AssetImage(
               '../assets/images/back.jpg',
