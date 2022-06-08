@@ -55,7 +55,7 @@ class _NavigationState extends State<Navigation> {
             opacity: 1,
             colorFilter: ColorFilter.mode(
               primary,
-              BlendMode.colorBurn,
+              BlendMode.colorDodge,
             ),
             fit: BoxFit.cover,
             image: AssetImage(
