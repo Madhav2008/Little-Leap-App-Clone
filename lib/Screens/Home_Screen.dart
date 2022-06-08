@@ -117,29 +117,27 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           ],
                         ),
-                        child: Center(
-                          child: ListTile(
-                            title: Text(
-                              'Daily challenges',
-                              style: TextStyle(
-                                fontSize: 30,
-                                color: Colors.black,
-                                fontWeight: FontWeight.w700,
-                              ),
+                        child: ListTile(
+                          title: Text(
+                            'Daily challenges',
+                            style: TextStyle(
+                              fontSize: 30,
+                              color: Colors.black,
+                              fontWeight: FontWeight.w700,
                             ),
-                            subtitle: Text(
-                              'Earn rewards everyday!',
-                              style: TextStyle(
-                                fontSize: 20,
-                                color: Colors.grey.shade500,
-                              ),
-                            ),
-                            // trailing: Image.asset(
-                            //   '../assets/images/dailyC.png',
-                            //   width: 200,
-                            //   height: 200,
-                            // ),
                           ),
+                          subtitle: Text(
+                            'Earn rewards everyday!',
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: Colors.grey.shade500,
+                            ),
+                          ),
+                          // trailing: Image.asset(
+                          //   '../assets/images/dailyC.png',
+                          //   width: 200,
+                          //   height: 200,
+                          // ),
                         ),
                       ),
                     ],
