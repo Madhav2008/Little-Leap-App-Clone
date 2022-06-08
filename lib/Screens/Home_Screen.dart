@@ -16,9 +16,11 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Container(
         child: Column(
           children: [
-            ListTile(
-              leading: CircleAvatar(
-                backgroundImage: AssetImage('../assets/images/My.png'),
+            Center(
+              child: ListTile(
+                leading: CircleAvatar(
+                  backgroundImage: AssetImage('../assets/images/My.png'),
+                ),
               ),
             ),
             Padding(
