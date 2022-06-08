@@ -146,7 +146,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Container(
                         width: MediaQuery.of(context).size.width - 50,
                         decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(30),
                           color: purple,
                           boxShadow: [
                             // to make elevation
@@ -158,7 +158,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             // to make the coloured border
                             BoxShadow(
                               color: Colors.blue,
-                              offset: Offset(0, 4),
+                              offset: Offset(0, 8),
                             ),
                           ],
                           // border: Border(
