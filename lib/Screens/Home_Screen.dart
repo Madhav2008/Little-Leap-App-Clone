@@ -87,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    opacity: 0.2,
+                    opacity: 0.9,
                     image: AssetImage(
                       '../assets/images/back.jpg',
                       // fit: BoxFit.cover,
