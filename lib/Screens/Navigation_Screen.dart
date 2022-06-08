@@ -32,7 +32,14 @@ class _NavigationState extends State<Navigation> {
     //   if (snapshot != null &&
     //       snapshot.hasData &&
     //       snapshot.data != ConnectivityResult.none) {
-    return Scaffold(
+    return Scaffold(backgroundColor: Colors.white,
+      appBar: AppBar(
+        elevation: 20,
+        title: const Text('GoogleNavBar'),
+      ),
+      body: Center(
+        child: _widgetOptions.elementAt(_selectedIndex),
+      ),
       bottomNavigationBar: Container(
         decoration: BoxDecoration(
           color: Colors.white,
