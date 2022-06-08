@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             ListTile(
               leading: CircleAvatar(
-                backgroundImage: NetworkImage(src),
+                backgroundImage: AssetImage(src),
               ),
             ),
             Padding(
