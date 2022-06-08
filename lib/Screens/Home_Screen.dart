@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Padding(
               padding: const EdgeInsets.only(
                 top: 15,
-                left: 20,
+                left: 10,
               ),
               child: ListTile(
                 leading: CircleAvatar(
