@@ -40,12 +40,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     fontSize: 15,
                     color: Colors.grey.shade200,
                   ),
-                  
                 ),
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(top: 25),
+              padding: const EdgeInsets.only(top: 15),
               child: Container(
                 height: MediaQuery.of(context).size.height - 154,
                 decoration: BoxDecoration(
