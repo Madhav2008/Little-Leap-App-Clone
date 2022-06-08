@@ -54,7 +54,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   child: Row(
                     children: [
-                      Icon(Icons.star_rate_rounded,),
+                      Icon(
+                        Icons.star_rate_rounded,
+                      ),
                     ],
                   ),
                 ),
