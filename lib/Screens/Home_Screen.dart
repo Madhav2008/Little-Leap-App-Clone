@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 subtitle: Padding(
-                  padding: const EdgeInsets.only(top:10.0),
+                  padding: const EdgeInsets.only(top: 10.0),
                   child: Text(
                     'Let\'s take a little leap',
                     style: TextStyle(
