@@ -126,7 +126,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               fontWeight: FontWeight.w700,
                             ),
                           ),
-                          title: Text(
+                          subtitle: Text(
                             'Daily challenges',
                             style: TextStyle(
                               fontSize: 35,
