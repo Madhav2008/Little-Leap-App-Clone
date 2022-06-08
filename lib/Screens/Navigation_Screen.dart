@@ -49,7 +49,14 @@ class _NavigationState extends State<Navigation> {
               blurRadius: 20,
               color: Colors.black.withOpacity(.1),
             )
-          ],
+          ],image: DecorationImage(
+                    opacity: 0.1,
+                    fit: BoxFit.cover,
+                    image: AssetImage(
+                      '../assets/images/back.jpg',
+                      // fit: BoxFit.cover,
+                    ),
+                  ),
         ),
         child: SafeArea(
           child: Padding(
