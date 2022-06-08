@@ -178,7 +178,6 @@ class _HomeScreenState extends State<HomeScreen> {
                                 color: Colors.grey.shade500,
                               ),
                             ),
-                           
                           ),
                         ),
                       ),
