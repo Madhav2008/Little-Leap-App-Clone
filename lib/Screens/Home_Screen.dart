@@ -116,7 +116,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               color: Colors.black.withOpacity(0.3),
                             ),
                           ],
-                        ),child: ListTile,
+                        ),child: ListTile(),
                       ),
                     ],
                   ),
