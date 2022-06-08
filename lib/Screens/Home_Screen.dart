@@ -102,7 +102,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: MediaQuery.of(context).size.width - 100,
                       height: 200,
                       color: Colors.white,
-                      decoration: BoxDecoration(),
+                      decoration: BoxDecoration(border: Border.all()),
                     ),
                   ],
                 ),
