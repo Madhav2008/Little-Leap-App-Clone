@@ -90,7 +90,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     fit: BoxFit.cover,
                     image: AssetImage(
                       '../assets/images/back.jpg',
-                      // fit: BoxFit.cover,
                     ),
                   ),
                 ),
