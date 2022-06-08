@@ -81,7 +81,7 @@ class _NavigationState extends State<Navigation> {
               ),
               duration: Duration(milliseconds: 400),
               tabBackgroundColor: Colors.grey[100]!,
-              color: Colors.white,
+              color: Colors.black54,
               tabs: [
                 GButton(
                   icon: Icons.home_outlined,
