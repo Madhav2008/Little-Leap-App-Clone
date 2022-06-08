@@ -56,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: [
                       Icon(
                         Icons.star_rate_rounded,
-                        color: Colors.yellow,
+                        color: Colors.yellow.shade900,
                       ),
                     ],
                   ),
