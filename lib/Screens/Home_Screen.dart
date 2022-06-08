@@ -136,7 +136,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           trailing: Image.asset(
                             '../assets/images/dailyC.png',
                             width: 200,
-                            height: 100,
+                            height: 200,
                           ),
                         ),
                       ),
