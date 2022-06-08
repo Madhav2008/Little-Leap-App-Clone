@@ -204,7 +204,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               'Writing',
                               style: TextStyle(
                                 fontSize: 30,
-                                color: Colors.black,
+                                color: Colors.white,
                                 fontWeight: FontWeight.w700,
                               ),
                             ),
