@@ -251,7 +251,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               'Grab a mic, the world',
                               style: TextStyle(
                                 fontSize: 20,
-                                color: Colors.grey.shade500,
+                                color: Colors.white,
                               ),
                             ),
                           ),
