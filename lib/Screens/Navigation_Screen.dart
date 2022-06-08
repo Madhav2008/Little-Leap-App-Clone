@@ -54,7 +54,7 @@ class _NavigationState extends State<Navigation> {
               hoverColor: Colors.grey[100]!,
               gap: 8,
               activeColor: Colors.green.shade800,
-              iconSize: 30,
+              iconSize: 26,
               padding: EdgeInsets.symmetric(
                 horizontal: 20,
                 vertical: 12,
