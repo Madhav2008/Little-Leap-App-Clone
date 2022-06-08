@@ -230,12 +230,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         decoration: BoxDecoration(
                           color: blue,
                           borderRadius: BorderRadius.circular(30),
-                          boxShadow: [
-                            BoxShadow(
-                              blurRadius: 20,
-                              color: Colors.black.withOpacity(0.3),
-                            ),
-                          ],
+                          
                         ),
                         child: Padding(
                           padding: const EdgeInsets.all(5),
