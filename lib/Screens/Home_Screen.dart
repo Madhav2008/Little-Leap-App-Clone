@@ -212,7 +212,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               'Words are wings to your imagination!',
                               style: TextStyle(
                                 fontSize: 20,
-                                color: Colors.grey.shade500,
+                                color: Colors.white,
                               ),
                             ),
                           ),
