@@ -53,7 +53,7 @@ class _NavigationState extends State<Navigation> {
               rippleColor: Colors.grey[300]!,
               hoverColor: Colors.grey[100]!,
               gap: 8,
-              activeColor: Colors.green,
+              activeColor: Colors.green.shade900,
               iconSize: 24,
               padding: EdgeInsets.symmetric(
                 horizontal: 20,
