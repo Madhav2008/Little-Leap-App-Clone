@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: primary,
       body: Container(
         child: Column(
-          children: [ListTile()
+          children: [ListTile(),
             Padding(
               padding: const EdgeInsets.only(top: 100.0),
               child: Container(
