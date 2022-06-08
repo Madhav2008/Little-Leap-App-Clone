@@ -53,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     borderRadius: BorderRadius.circular(50),
                   ),
                   child: Row(
-                    children: [],
+                    children: [Icon(icon)],
                   ),
                 ),
               ),
