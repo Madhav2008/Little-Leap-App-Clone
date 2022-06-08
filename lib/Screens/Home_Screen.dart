@@ -175,7 +175,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               'Today a reader, tomorrow a leader!',
                               style: TextStyle(
                                 fontSize: 20,
-                                color: Colors.grey.shade500,
+                                color: Colors.white,
                               ),
                             ),
                           ),
