@@ -26,7 +26,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   backgroundImage: AssetImage('../assets/images/My.png'),
                   radius: 25,
                 ),
-                title: Text('Hello Madhav!',style: TextStyle(),),
+                title: Text(
+                  'Hello Madhav!',
+                  style: TextStyle(),
+                ),
               ),
             ),
             Padding(
