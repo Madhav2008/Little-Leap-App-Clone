@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
               color: Colors.white,
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(20),
-                topLeft: Radius.circular(20),
+                topRight: Radius.circular(20),
               ),
             ),
           ),
