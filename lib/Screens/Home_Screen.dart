@@ -157,7 +157,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                             // to make the coloured border
                             BoxShadow(
-                              color: Colors.blue,
+                              color: Colors.deepPurple,
                               offset: Offset(0, 8),
                             ),
                           ],
