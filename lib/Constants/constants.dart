@@ -6,4 +6,4 @@ const lightPink = Color(0xFFF16991);
 const lightBlue = Color(0xFF4AD6FD);
 const purple = Color(0xFF7944B7);
 const pink = Color(0xFFEE4476);
-const blue = Color(0xFF2aD6FD);
+const blue = Color(0xFF4BD6FD);
