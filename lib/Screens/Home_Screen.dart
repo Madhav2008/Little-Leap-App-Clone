@@ -130,7 +130,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             'Earn rewards everyday!',
                             style: TextStyle(
                               fontSize: 20,
-                              color: Colors.grey.shade400,
+                              color: Colors.grey.shade500,
                             ),
                           ),
                           // trailing: Image.asset(
