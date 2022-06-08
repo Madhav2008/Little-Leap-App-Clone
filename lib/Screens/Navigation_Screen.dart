@@ -53,7 +53,7 @@ class _NavigationState extends State<Navigation> {
           image: DecorationImage(
             opacity: 1,
             colorFilter: ColorFilter.mode(
-              Colors.black,
+              Colors.white,
               BlendMode.difference,
             ),
             fit: BoxFit.cover,
