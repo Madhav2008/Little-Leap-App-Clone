@@ -149,7 +149,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           color: purple,
                           border: Border(
                             bottom: BorderSide(
-                              color: Colors.deepPurple,
+                              color: Colors.deepPurple,width: 3
                             ),
                           ),
                           borderRadius: BorderRadius.circular(30),
