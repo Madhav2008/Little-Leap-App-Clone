@@ -99,7 +99,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Column(
                   children: [
                     Container(
-                      width: MediaQuery.of(context).size.width - 100,height: 200,
+                      width: MediaQuery.of(context).size.width - 100,
+                      height: 200,
                     ),
                   ],
                 ),
