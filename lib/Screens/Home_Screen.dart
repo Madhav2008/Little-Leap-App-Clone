@@ -84,7 +84,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(50),
                     topRight: Radius.circular(50),
-                  ),
+                  ),image: Image.asset(
+                          '../assets/images/back.jpg',
+                          fit: BoxFit.cover,
+                        ),
                 ),
                 child: Stack(
                   children: [
