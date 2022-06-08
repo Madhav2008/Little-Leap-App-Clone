@@ -80,12 +80,13 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Container(
                 height: MediaQuery.of(context).size.height - 174,
                 decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(50),
-                      topRight: Radius.circular(50),
-                    ),
-                    image: DecorationImage(),),
+                  color: Colors.white,
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(50),
+                    topRight: Radius.circular(50),
+                  ),
+                  image: DecorationImage(),
+                ),
                 child: Stack(
                   children: [
                     Container(
