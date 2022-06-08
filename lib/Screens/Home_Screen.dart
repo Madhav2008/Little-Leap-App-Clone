@@ -17,7 +17,10 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.only(top: 15, left: 20,),
+              padding: const EdgeInsets.only(
+                top: 15,
+                left: 20,
+              ),
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage('../assets/images/My.png'),
