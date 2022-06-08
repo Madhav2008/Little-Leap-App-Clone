@@ -40,7 +40,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     fontSize: 15,
                     color: Colors.grey.shade200,
                   ),
-                ),trailing: Container(),
+                ),
+                trailing: Container(),
               ),
             ),
             Padding(
