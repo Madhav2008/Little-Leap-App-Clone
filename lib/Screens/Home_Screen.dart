@@ -147,7 +147,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         width: MediaQuery.of(context).size.width - 50,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(30),
-                          color: purple,
+                          color: lightPurple,
                           boxShadow: [
                             BoxShadow(
                               color: Colors.black45,
