@@ -164,7 +164,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           padding: const EdgeInsets.all(5),
                           child: ListTile(
                             title: Text(
-                              'Daily challenges',
+                              'Reading',
                               style: TextStyle(
                                 fontSize: 30,
                                 color: Colors.black,
