@@ -19,7 +19,9 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Container(
             decoration: BoxDecoration(
               color: Colors.white,
-              borderRadius: BorderRadius.only(topLeft: Radius.circular(20),),
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(20),
+              ),
             ),
           ),
         ),
