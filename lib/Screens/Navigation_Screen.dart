@@ -48,7 +48,7 @@ class _NavigationState extends State<Navigation> {
           boxShadow: [
             BoxShadow(
               blurRadius: 20,
-              color: Colors.black.withOpacity(.1),
+              color: Colors.black.withOpacity(0.1),
             )
           ],
           image: DecorationImage(
