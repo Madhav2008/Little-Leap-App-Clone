@@ -106,12 +106,13 @@ class _HomeScreenState extends State<HomeScreen> {
                         color: Colors.white,
                         border: Border.all(
                           color: Colors.black87,
-                        ),boxShadow: [
-            BoxShadow(
-              blurRadius: 20,
-              color: Colors.black.withOpacity(0.1),
-            )
-          ],
+                        ),
+                        boxShadow: [
+                          BoxShadow(
+                            blurRadius: 20,
+                            color: Colors.black.withOpacity(0.1),
+                          )
+                        ],
                       ),
                     ),
                   ],
