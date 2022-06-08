@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                subTitle: Text(
+                subtitle: Text(
                   'Hello Madhav!',
                   style: TextStyle(
                     fontSize: 25,
