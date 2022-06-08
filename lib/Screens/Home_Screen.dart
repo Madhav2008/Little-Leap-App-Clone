@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   'Hello Madhav!',
                   style: TextStyle(
                     fontSize: 25,
-                    color: Colors.white,fontWeight: FontWeight.bold
+                    color: Colors.white,fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
