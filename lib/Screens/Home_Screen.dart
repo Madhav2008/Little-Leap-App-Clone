@@ -114,7 +114,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             BoxShadow(
                               blurRadius: 20,
                               color: Colors.black.withOpacity(0.3),
-                            )
+                            ),
                           ],
                         ),
                       ),
