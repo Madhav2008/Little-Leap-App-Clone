@@ -154,7 +154,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               style: BorderStyle.solid,
                             ),
                           ),
-                          // borderRadius: BorderRadius.circular(30),
+                          borderRadius: BorderRadius.circular(30),
                           boxShadow: [
                             BoxShadow(
                               blurRadius: 20,
