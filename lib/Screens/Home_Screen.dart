@@ -127,7 +127,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           ),
                           subtitle: Text(
-                            'Daily challenges',
+                            'Earn rewards everyday!',
                             style: TextStyle(
                               fontSize: 20,
                               color: Colors.grey.shade400,
