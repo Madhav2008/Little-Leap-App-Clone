@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         color: Colors.yellow.shade700,
                       ),
                       SizedBox(
-                        width: 2,
+                        width: 3,
                       ),
                       Text(
                         '72',
