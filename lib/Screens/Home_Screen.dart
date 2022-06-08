@@ -117,7 +117,9 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           ],
                         ),
-                        child: ListTile(title: Text(''),),
+                        child: ListTile(
+                          title: Text(''),
+                        ),
                       ),
                     ],
                   ),
