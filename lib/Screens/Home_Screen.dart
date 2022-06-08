@@ -76,17 +76,18 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             Stack(
-              children: [Container(
-                width: MediaQuery.of(context).size.width,
-                height: MediaQuery.of(context).size.height,
-                child: Opacity(
-                  opacity: 0.3,
-                  child: Image.asset(
-                    '../assets/images/back.jpg',
-                    fit: BoxFit.cover,
+              children: [
+                Container(
+                  width: MediaQuery.of(context).size.width,
+                  height: MediaQuery.of(context).size.height,
+                  child: Opacity(
+                    opacity: 0.3,
+                    child: Image.asset(
+                      '../assets/images/back.jpg',
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ),
-              ),
                 Padding(
                   padding: const EdgeInsets.only(top: 32),
                   child: Container(
