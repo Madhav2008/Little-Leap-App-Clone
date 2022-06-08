@@ -85,19 +85,22 @@ class _HomeScreenState extends State<HomeScreen> {
                     topLeft: Radius.circular(50),
                     topRight: Radius.circular(50),
                   ),
-                ),child:Stack(
-                children: [
-                  Container(
-                    width: MediaQuery.of(context).size.width,
-                    height: MediaQuery.of(context).size.height,
-                    child: Opacity(
-                      opacity: 0.3,
-                      child: Image.asset(
-                        '../assets/images/back.jpg',
-                        fit: BoxFit.cover,
+                ),
+                child: Stack(
+                  children: [
+                    Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: MediaQuery.of(context).size.height,
+                      child: Opacity(
+                        opacity: 0.3,
+                        child: Image.asset(
+                          '../assets/images/back.jpg',
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
-                  ),],),
+                  ],
+                ),
               ),
             ),
           ],
