@@ -39,7 +39,7 @@ class _NavigationState extends State<Navigation> {
         title: const Text('GoogleNavBar'),
       ),
       body: Center(
-        child: _widgetOptions.elementAt(_selectedIndex),
+        child: _tabItems.elementAt(_selectedIndex),
       ),
       bottomNavigationBar: Container(
         decoration: BoxDecoration(
