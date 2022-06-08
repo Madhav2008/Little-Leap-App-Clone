@@ -80,7 +80,7 @@ class _NavigationState extends State<Navigation> {
                   text: 'Menu',
                 ),
               ],
-              // selectedIndex: _selectedIndex,
+              selectedIndex: _selectedIndex,
               onTabChange: (index) {
                 setState(() {
                   _page = index;
