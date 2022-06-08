@@ -149,7 +149,6 @@ class _HomeScreenState extends State<HomeScreen> {
                           borderRadius: BorderRadius.circular(30),
                           color: purple,
                           boxShadow: [
-                            // to make elevation
                             BoxShadow(
                               color: Colors.black45,
                               offset: Offset(2, 2),
