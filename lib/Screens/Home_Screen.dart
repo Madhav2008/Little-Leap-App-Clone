@@ -118,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ],
                         ),
                         child: ListTile(
-                          title: Text(''),
+                          title: Text('Daily challenges'),
                         ),
                       ),
                     ],
