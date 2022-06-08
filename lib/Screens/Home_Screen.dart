@@ -148,9 +148,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         decoration: BoxDecoration(
                           color: purple,
                           border: Border(
-                            bottom: BorderSide(color = const Color(0xFF000000),
-  double width = 1.0,
-  BorderStyle style = BorderStyle.solid,)
+                            bottom: BorderSide(color: purple)
                           ),
                           borderRadius: BorderRadius.circular(30),
                           boxShadow: [
