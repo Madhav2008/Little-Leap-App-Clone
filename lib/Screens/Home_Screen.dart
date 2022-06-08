@@ -258,7 +258,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                             ),
                             subtitle: Text(
-                              'Earn rewards everyday!',
+                              'Grab a mic, the world',
                               style: TextStyle(
                                 fontSize: 20,
                                 color: Colors.grey.shade500,
