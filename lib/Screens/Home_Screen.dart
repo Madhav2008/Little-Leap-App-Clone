@@ -85,10 +85,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     topLeft: Radius.circular(50),
                     topRight: Radius.circular(50),
                   ),
-                  image: DecorationImage(colorFilter: ColorFilter.mode(
-              primary,
-              BlendMode.darken,
-            ),
+                  image: DecorationImage(
+                    colorFilter: ColorFilter.mode(
+                      primary,
+                      BlendMode.darken,
+                    ),
                     fit: BoxFit.cover,
                     image: AssetImage(
                       '../assets/images/back.jpg',
