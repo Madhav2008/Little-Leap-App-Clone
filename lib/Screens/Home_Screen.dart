@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:little_leap_clone/Constants/constants.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -11,7 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF42CB7E),
+      backgroundColor: primary,
       body: Container(
         child: Padding(
           padding: const EdgeInsets.only(top: 100.0),
