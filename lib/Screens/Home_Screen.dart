@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 trailing: Container(
                   width: 55,
-                  height: 25,
+                  height: 30,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     border: Border.all(
