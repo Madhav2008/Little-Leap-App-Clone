@@ -85,7 +85,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     topLeft: Radius.circular(50),
                     topRight: Radius.circular(50),
                   ),
-                  image: DecorationImage(fit: BoxFit.cover,
+                  image: DecorationImage(
+                    fit: BoxFit.cover,
                     image: AssetImage(
                       '../assets/images/back.jpg',
                       // fit: BoxFit.cover,
