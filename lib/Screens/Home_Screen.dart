@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:little_leap_clone/Constants/Constants.dart';
 import 'package:little_leap_clone/Constants/constants.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -146,7 +147,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Container(
                         width: MediaQuery.of(context).size.width - 50,
                         decoration: BoxDecoration(
-                          color: Colors.deepPurple.shade400,
+                          color: purple,
                           border: Border.all(
                             color: Colors.grey,
                           ),
