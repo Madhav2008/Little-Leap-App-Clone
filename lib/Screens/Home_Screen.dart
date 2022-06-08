@@ -41,7 +41,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Colors.grey.shade200,
                   ),
                 ),
-                trailing: Container(child: Row(),),
+                trailing: Container(
+                  child: Row(),
+                ),
               ),
             ),
             Padding(
