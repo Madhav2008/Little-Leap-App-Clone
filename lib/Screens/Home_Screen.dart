@@ -133,7 +133,10 @@ class _HomeScreenState extends State<HomeScreen> {
                               color: Colors.grey.shade300,
                             ),
                           ),
-                          trailing: Image.asset('../assets/images/dailyC.png',width: 100,),
+                          trailing: Image.asset(
+                            '../assets/images/dailyC.png',
+                            width: 100,
+                          ),
                         ),
                       ),
                     ],
