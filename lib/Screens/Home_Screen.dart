@@ -132,7 +132,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               fontSize: 25,
                               color: Colors.grey.shade300,
                             ),
-                          ),
+                          ),trailing: ,
                         ),
                       ),
                     ],
