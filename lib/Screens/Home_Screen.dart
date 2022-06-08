@@ -59,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         Icons.star_rate_rounded,
                         color: Colors.yellow.shade700,
                       ),
-                      Text(),
+                      Text('72'),
                     ],
                   ),
                 ),
