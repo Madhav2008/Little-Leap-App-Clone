@@ -155,12 +155,12 @@ class _HomeScreenState extends State<HomeScreen> {
                               // style: BorderStyle.solid,
                             ),
                           ),
-                          boxShadow: [
-                            BoxShadow(
-                              blurRadius: 20,
-                              color: Colors.black.withOpacity(0.3),
-                            ),
-                          ],
+                          // boxShadow: [
+                          //   BoxShadow(
+                          //     blurRadius: 20,
+                          //     color: Colors.black.withOpacity(0.3),
+                          //   ),
+                          // ],
                         ),
                         child: Padding(
                           padding: const EdgeInsets.all(5),
