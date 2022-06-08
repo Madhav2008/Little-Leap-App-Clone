@@ -161,18 +161,6 @@ class _HomeScreenState extends State<HomeScreen> {
                               offset: Offset(0, 10),
                             ),
                           ],
-                          // border: Border(
-                          //   left: BorderSide(
-                          //     color: Colors.deepPurple,
-                          //     width: 3,
-                          //     // style: BorderStyle.solid,
-                          //   ),
-                          // ),
-                          // boxShadow: [
-                          //   BoxShadow(
-                          //     blurRadius: 20,
-                          //     color: Colors.black.withOpacity(0.3),
-                          //   ),
                           // ],
                         ),
                         child: Padding(
