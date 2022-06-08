@@ -147,19 +147,20 @@ class _HomeScreenState extends State<HomeScreen> {
                         width: MediaQuery.of(context).size.width - 50,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
-                          color: purple,boxShadow: [
-          // to make elevation
-          BoxShadow(
-            color: Colors.black45,
-            offset: Offset(2, 2),
-            blurRadius: 4,
-          ),
-          // to make the coloured border
-          BoxShadow(
-            color: Colors.blue,
-            offset: Offset(0, 4),
-          ),
-        ],
+                          color: purple,
+                          boxShadow: [
+                            // to make elevation
+                            BoxShadow(
+                              color: Colors.black45,
+                              offset: Offset(2, 2),
+                              blurRadius: 4,
+                            ),
+                            // to make the coloured border
+                            BoxShadow(
+                              color: Colors.blue,
+                              offset: Offset(0, 4),
+                            ),
+                          ],
                           // border: Border(
                           //   left: BorderSide(
                           //     color: Colors.deepPurple,
