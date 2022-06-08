@@ -19,7 +19,7 @@ class _NavigationState extends State<Navigation> {
     LiveClasses(),
     Leaderboard(),
   ];
-  int _page = 0;
+  int _selectedindex = 0;
   GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
 
   @override
