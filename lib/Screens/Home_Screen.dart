@@ -34,11 +34,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                subtitle: Text(
-                  'Let\'s take a little leap',
-                  style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.grey,
+                subtitle: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    'Let\'s take a little leap',
+                    style: TextStyle(
+                      fontSize: 15,
+                      color: Colors.grey,
+                    ),
                   ),
                 ),
               ),
