@@ -172,7 +172,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                             ),
                             subtitle: Text(
-                              'Today a reader, tomorrow a leader',
+                              'Today a reader, tomorrow a leader!',
                               style: TextStyle(
                                 fontSize: 20,
                                 color: Colors.grey.shade500,
