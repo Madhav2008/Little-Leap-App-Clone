@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(20),
+                topLeft: Radius.circular(30),
                 topRight: Radius.circular(20),
               ),
             ),
