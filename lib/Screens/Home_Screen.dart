@@ -120,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: ListTile(
                           title: Text(
                             'Daily challenges',
-                            style: TextStyle(),
+                            style: TextStyle(fontSize:),
                           ),
                         ),
                       ),
