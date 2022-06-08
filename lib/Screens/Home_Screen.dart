@@ -87,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   image: DecorationImage(
                     colorFilter: ColorFilter.mode(
-                      Colors.white,
+                      Colors.grey.shade400,
                       BlendMode.softLight,
                     ),
                     fit: BoxFit.cover,
