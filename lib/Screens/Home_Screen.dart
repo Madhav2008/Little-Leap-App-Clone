@@ -23,7 +23,8 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               child: ListTile(
                 leading: CircleAvatar(
-                  backgroundImage: AssetImage('../assets/images/My.png'),radius: 30,
+                  backgroundImage: AssetImage('../assets/images/My.png'),
+                  radius: 30,
                 ),
               ),
             ),
