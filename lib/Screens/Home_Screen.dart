@@ -243,7 +243,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               'Speaking',
                               style: TextStyle(
                                 fontSize: 30,
-                                color: Colors.black,
+                                color: Colors.white,
                                 fontWeight: FontWeight.w700,
                               ),
                             ),
