@@ -181,6 +181,46 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ),
                       ),
+                      Container(
+                        width: MediaQuery.of(context).size.width - 50,
+                        height: 100,
+                        decoration: BoxDecoration(
+                          color: Colors.grey.shade100,
+                          border: Border.all(
+                            color: Colors.grey,
+                          ),
+                          borderRadius: BorderRadius.circular(30),
+                          boxShadow: [
+                            BoxShadow(
+                              blurRadius: 20,
+                              color: Colors.black.withOpacity(0.3),
+                            ),
+                          ],
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.all(5),
+                          child: ListTile(
+                            title: Text(
+                              'Daily challenges',
+                              style: TextStyle(
+                                fontSize: 30,
+                                color: Colors.black,
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                            subtitle: Text(
+                              'Earn rewards everyday!',
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.grey.shade500,
+                              ),
+                            ),
+                            trailing: Image.asset(
+                              '../assets/images/dailyC.png',
+                            ),
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                 ),
