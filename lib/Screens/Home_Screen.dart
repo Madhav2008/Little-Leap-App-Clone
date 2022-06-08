@@ -109,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           border: Border.all(
                             color: Colors.black87,
                           ),
-                          borderRadius: BorderRadius.circular(20),
+                          borderRadius: BorderRadius.circular(30),
                           boxShadow: [
                             BoxShadow(
                               blurRadius: 20,
