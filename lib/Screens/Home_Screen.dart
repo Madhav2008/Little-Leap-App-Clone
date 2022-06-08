@@ -133,7 +133,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               color: Colors.grey.shade300,
                             ),
                           ),
-                          trailing: Image.network(src),
+                          trailing: Image.asset(src),
                         ),
                       ),
                     ],
