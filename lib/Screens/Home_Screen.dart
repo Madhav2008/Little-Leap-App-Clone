@@ -13,7 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.green,
       body: Container(
-        child: Container(),
+        child: Container(color:Colors.white),
       ),
     );
   }
