@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       color: Colors.white,
                       border: Border.all(
                         color: Colors.yellow,
-                      )),
+                      ),),
                   child: Row(),
                 ),
               ),
