@@ -78,7 +78,18 @@ class _HomeScreenState extends State<HomeScreen> {
             Padding(
               padding: const EdgeInsets.only(top: 32),
               child: Stack(
-                children: [
+              children: [
+                Container(
+                  width: MediaQuery.of(context).size.width,
+                  height: MediaQuery.of(context).size.height,
+                  child: Opacity(
+                    opacity: 0.3,
+                    child: Image.asset(
+                      '../assets/images/back.jpg',
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
                   Container(
                     height: MediaQuery.of(context).size.height - 174,
                     decoration: BoxDecoration(
