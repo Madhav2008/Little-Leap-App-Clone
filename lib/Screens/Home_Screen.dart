@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 title: Text(
                   'Hello Madhav!',
-                  style: TextStyle(),
+                  style: TextStyle(fontSize: 25),
                 ),
               ),
             ),
