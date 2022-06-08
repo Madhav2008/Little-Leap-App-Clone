@@ -52,7 +52,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     borderRadius: BorderRadius.circular(50),
                   ),
-                  child: Row(mainAxisAlignment: MainAxisAlignment.center,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(
                         Icons.star_rate_rounded,
