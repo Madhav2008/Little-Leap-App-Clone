@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     'Let\'s take a little leap',
                     style: TextStyle(
                       fontSize: 15,
-                      color: Colors.grey,
+                      color: Colors.grey.shade300,
                     ),
                   ),
                 ),
