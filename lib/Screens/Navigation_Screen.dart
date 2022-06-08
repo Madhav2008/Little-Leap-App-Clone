@@ -32,7 +32,7 @@ class _NavigationState extends State<Navigation> {
     //   if (snapshot != null &&
     //       snapshot.hasData &&
     //       snapshot.data != ConnectivityResult.none) {
-    return Scaffold(
+    return Scaffold(backgroundColor: Colors.white,
       body: Center(
         child: _tabItems.elementAt(_selectedIndex),
       ),
