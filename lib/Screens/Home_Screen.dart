@@ -130,7 +130,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             'Daily challenges',
                             style: TextStyle(
                               fontSize: 20,
-                              color: Colors.grey.shade300,
+                              color: Colors.grey.shade400,
                             ),
                           ),
                           trailing: Image.asset(
