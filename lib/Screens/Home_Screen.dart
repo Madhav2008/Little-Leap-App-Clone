@@ -155,7 +155,6 @@ class _HomeScreenState extends State<HomeScreen> {
                               offset: Offset(2, 2),
                               blurRadius: 4,
                             ),
-                            // to make the coloured border
                             BoxShadow(
                               color: Colors.deepPurple,
                               offset: Offset(0, 10),
