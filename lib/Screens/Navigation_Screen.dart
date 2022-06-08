@@ -83,7 +83,7 @@ class _NavigationState extends State<Navigation> {
               // selectedIndex: _selectedIndex,
               onTabChange: (index) {
                 setState(() {
-                  // _selectedIndex = index;
+                  _selectedIndex = index;
                 });
               },
             ),
