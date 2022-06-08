@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
           padding: const EdgeInsets.only(top: 100.0),
           child: Container(
             decoration: BoxDecoration(
-            color: Colors.white,
+              color: Colors.white,
               borderRadius: BorderRadius.circular(20),
             ),
           ),
