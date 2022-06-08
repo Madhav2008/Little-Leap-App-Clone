@@ -215,7 +215,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                             ),
                             subtitle: Text(
-                              'Words are wings to ',
+                              'Words are wings to your imagination',
                               style: TextStyle(
                                 fontSize: 20,
                                 color: Colors.grey.shade500,
