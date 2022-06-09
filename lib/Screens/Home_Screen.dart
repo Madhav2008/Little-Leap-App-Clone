@@ -203,7 +203,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         child: Padding(
                           padding: const EdgeInsets.all(5),
-                          child: ListTile(
+                          child: ListTile(leading: AssetImage(),
                             title: Text(
                               'Writing',
                               style: TextStyle(
