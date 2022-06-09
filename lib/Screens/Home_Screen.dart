@@ -204,7 +204,16 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Padding(
                           padding: const EdgeInsets.all(5),
                           child: Row(
-                            children: [
+                            children: [Container(
+                            //   width: 150,
+                            //   height: 150,
+                            //   child: Image.asset(
+                            //     '../assets/images/writing.png',
+                            //     // width: 100,
+                            //     // height: 500,
+                            //     fit: BoxFit.cover,
+                            //   ),
+                            // ),
                               ListTile(
                                 // leading: Container(
                                 //   width: 150,
