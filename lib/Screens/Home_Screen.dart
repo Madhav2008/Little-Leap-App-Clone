@@ -207,7 +207,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             leading: Image.asset(
                               '../assets/images/writing.png',
                               width: 100,
-                              height: 100,
+                              height: 500,
                             ),
                             title: Text(
                               'Writing',
