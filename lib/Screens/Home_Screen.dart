@@ -206,7 +206,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           child: ListTile(
                             leading: Container(
                               width: 70,
-                              height: 70,
+                              height: 60,
                               child: Image.asset(
                                 '../assets/images/writing.png',
                                 // width: 150,
