@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:little_leap_clone/Constants/Constants.dart';
+import 'package:little_leap_clone/Constants/Colors.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
