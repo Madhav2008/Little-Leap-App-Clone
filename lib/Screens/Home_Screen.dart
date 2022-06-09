@@ -204,7 +204,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Padding(
                           padding: const EdgeInsets.all(5),
                           child: ListTile(
-                            leading: Container(
+                            leading: Container(// width: 100,
+                                // height: 500,
                               child: Image.asset(
                                 '../assets/images/writing.png',
                                 // width: 100,
