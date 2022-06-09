@@ -162,7 +162,16 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         child: Padding(
                           padding: const EdgeInsets.all(5),
-                          child: ListTile(
+                          child: ListTile(leading: Container(
+                              width: 60,
+                              height: 60,
+                              child: Image.asset(
+                                '../assets/images/write.jpg',
+                                // width: 150,
+                                // height: 150,
+                                fit: BoxFit.cover,
+                              ),
+                            ),
                             title: Text(
                               'Reading',
                               style: TextStyle(
