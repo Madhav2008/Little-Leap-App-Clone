@@ -208,7 +208,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               width: 60,
                               height: 60,
                               child: Image.asset(
-                                '../assets/images/writing.png',
+                                '../assets/images/write.jpg',
                                 // width: 150,
                                 // height: 150,
                                 fit: BoxFit.cover,
