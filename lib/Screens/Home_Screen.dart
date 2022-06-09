@@ -203,46 +203,32 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         child: Padding(
                           padding: const EdgeInsets.all(5),
-                          child: Row(
-                            children: [
-                              Container(
-                                width: 150,
-                                height: 150,
-                                child: Image.asset(
-                                  '../assets/images/writing.png',
-                                  // width: 100,
-                                  // height: 500,
-                                  fit: BoxFit.cover,
-                                ),
+                          child: ListTile(
+                            // leading: Container(
+                            //   width: 150,
+                            //   height: 150,
+                            //   child: Image.asset(
+                            //     '../assets/images/writing.png',
+                            //     // width: 100,
+                            //     // height: 500,
+                            //     fit: BoxFit.cover,
+                            //   ),
+                            // ),
+                            title: Text(
+                              'Writing',
+                              style: TextStyle(
+                                fontSize: 30,
+                                color: Colors.white,
+                                fontWeight: FontWeight.w700,
                               ),
-                              ListTile(
-                                // leading: Container(
-                                //   width: 150,
-                                //   height: 150,
-                                //   child: Image.asset(
-                                //     '../assets/images/writing.png',
-                                //     // width: 100,
-                                //     // height: 500,
-                                //     fit: BoxFit.cover,
-                                //   ),
-                                // ),
-                                title: Text(
-                                  'Writing',
-                                  style: TextStyle(
-                                    fontSize: 30,
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.w700,
-                                  ),
-                                ),
-                                subtitle: Text(
-                                  'Words are wings to your imagination!',
-                                  style: TextStyle(
-                                    fontSize: 20,
-                                    color: Colors.white,
-                                  ),
-                                ),
+                            ),
+                            subtitle: Text(
+                              'Words are wings to your imagination!',
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.white,
                               ),
-                            ],
+                            ),
                           ),
                         ),
                       ),
