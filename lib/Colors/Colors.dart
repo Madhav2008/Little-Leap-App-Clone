@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 const primary = Color(0xFF42CB7E);
 var lightPurple = Colors.deepPurple.shade700;
-var lightPink = Color(0xFFF16991);
+var lightPink = Colors.pink;
 var lightBlue = Color(0xFF4AD6FD);
 var purple = Color(0xFF9944B7);
-var pink = Color(0xFFEE4476);
+var pink = Colors.pink.shade700;
 var blue = Colors.deepPurple.shade900;
 // const lightPurple = Color(0xFF7944B7);
 // const lightPink = Color(0xFFF16991);
