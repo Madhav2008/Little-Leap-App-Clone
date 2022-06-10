@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           onPressed: () {
                             //action after pressing this button
                           },
-                          child:AssetImage(
+                          child:Image.asset(
                       '../assets/images/back.jpg',
                     ),,
                         ),
