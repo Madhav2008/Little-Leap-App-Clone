@@ -99,7 +99,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 child: SingleChildScrollView(
                   child: Column(
-                    children: [
+                    children: [DraggableFab(
+  child: FloatingActionButton(
+    onPressed: (){
+        //action after pressing this button
+    },
+    child: Icon(Icons.add),
+  ),
+)
                       Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: Container(
