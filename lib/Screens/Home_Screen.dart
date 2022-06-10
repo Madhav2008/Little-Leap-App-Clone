@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Image.asset(
               '../assets/images/My.png',
               width: 50,
-              width: 50,
+              height: 50,
             ),
             radius: 25,
           ),
