@@ -17,7 +17,9 @@ class _HomeScreenState extends State<HomeScreen> {
         child: FloatingActionButton(
           onPressed: () {},
           child: Container(
-            child: Image.asset('../assets/images/My.png',),
+            child: Image.asset(
+              '../assets/images/My.png',
+            ),
             radius: 25,
           ),
         ),
