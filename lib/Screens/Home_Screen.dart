@@ -19,9 +19,9 @@ class _HomeScreenState extends State<HomeScreen> {
             //action after pressing this button
           },
           child: CircleAvatar(
-                  backgroundImage: AssetImage('../assets/images/My.png'),
-                  radius: 25,
-                ),
+            backgroundImage: AssetImage('../assets/images/My.png'),
+            radius: 25,
+          ),
         ),
       ),
       backgroundColor: primary,
