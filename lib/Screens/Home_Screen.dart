@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
           onPressed: () {},
           child: Container(
             child: Image.asset(
-              '../assets/images/My.png',
+              '../assets/images/My.png',width: 50,
             ),
             radius: 25,
           ),
