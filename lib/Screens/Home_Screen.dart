@@ -12,7 +12,16 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(floatingActionButton: DraggableFab(
+              child: FloatingActionButton(
+                onPressed: () {
+                  //action after pressing this button
+                },
+                child: Image.asset(
+                  '../assets/images/My.png',
+                ),
+              ),
+            ),
       backgroundColor: primary,
       body: Container(
         child: Column(
