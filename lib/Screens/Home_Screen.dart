@@ -16,7 +16,8 @@ class _HomeScreenState extends State<HomeScreen> {
       floatingActionButton: DraggableFab(
         child: FloatingActionButton(
           onPressed: () {},
-          child: Container(decoration: BoxDecoration(),
+          child: Container(
+            decoration: BoxDecoration(),
             child: Image.asset(
               '../assets/images/My.png',
               width: 50,
