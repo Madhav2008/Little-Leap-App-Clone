@@ -16,7 +16,6 @@ class _HomeScreenState extends State<HomeScreen> {
       floatingActionButton: DraggableFab(
         child: FloatingActionButton(
           onPressed: () {
-            //action after pressing this button
           },
           child: CircleAvatar(
             backgroundImage: AssetImage('../assets/images/My.png'),
