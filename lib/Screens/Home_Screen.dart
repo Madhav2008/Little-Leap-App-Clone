@@ -107,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
     },
     child: Icon(Icons.add),
   ),
-)
+),
                       Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: Container(
