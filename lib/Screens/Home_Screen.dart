@@ -97,204 +97,206 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                 ),
-                child: Column(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(top: 20),
-                      child: Container(
-                        width: MediaQuery.of(context).size.width - 50,
-                        decoration: BoxDecoration(
-                          color: Colors.grey.shade100,
-                          border: Border.all(
-                            color: Colors.grey,
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(top: 20),
+                        child: Container(
+                          width: MediaQuery.of(context).size.width - 50,
+                          decoration: BoxDecoration(
+                            color: Colors.grey.shade100,
+                            border: Border.all(
+                              color: Colors.grey,
+                            ),
+                            borderRadius: BorderRadius.circular(30),
+                            boxShadow: [
+                              BoxShadow(
+                                blurRadius: 20,
+                                color: Colors.black.withOpacity(0.3),
+                              ),
+                            ],
                           ),
-                          borderRadius: BorderRadius.circular(30),
-                          boxShadow: [
-                            BoxShadow(
-                              blurRadius: 20,
-                              color: Colors.black.withOpacity(0.3),
-                            ),
-                          ],
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(5),
-                          child: ListTile(
-                            title: Text(
-                              'Daily challenges',
-                              style: TextStyle(
-                                fontSize: 30,
-                                color: Colors.black,
-                                fontWeight: FontWeight.w700,
+                          child: Padding(
+                            padding: const EdgeInsets.all(5),
+                            child: ListTile(
+                              title: Text(
+                                'Daily challenges',
+                                style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.w700,
+                                ),
                               ),
-                            ),
-                            subtitle: Text(
-                              'Earn rewards everyday!',
-                              style: TextStyle(
-                                fontSize: 20,
-                                color: Colors.grey.shade500,
+                              subtitle: Text(
+                                'Earn rewards everyday!',
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.grey.shade500,
+                                ),
                               ),
-                            ),
-                            trailing: Image.asset(
-                              '../assets/images/dailyC.png',
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(top: 20),
-                      child: Container(
-                        width: MediaQuery.of(context).size.width - 50,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(30),
-                          color: lightPurple,
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black45,
-                              offset: Offset(2, 2),
-                              blurRadius: 4,
-                            ),
-                            BoxShadow(
-                              color: purple,
-                              offset: Offset(0, 10),
-                            ),
-                          ],
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(5),
-                          child: ListTile(
-                            leading: Container(
-                              width: 40,
-                              height: 40,
-                              child: Image.asset(
-                                '../assets/images/reading.png',
-                                // width: 150,
-                                // height: 150,
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                            title: Text(
-                              'Reading',
-                              style: TextStyle(
-                                fontSize: 30,
-                                color: Colors.white,
-                                fontWeight: FontWeight.w700,
-                              ),
-                            ),
-                            subtitle: Text(
-                              'Today a reader, tomorrow a leader!',
-                              style: TextStyle(
-                                fontSize: 20,
-                                color: Colors.white,
+                              trailing: Image.asset(
+                                '../assets/images/dailyC.png',
                               ),
                             ),
                           ),
                         ),
                       ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(top: 20),
-                      child: Container(
-                        width: MediaQuery.of(context).size.width - 50,
-                        decoration: BoxDecoration(
-                          color: lightPink,
-                          borderRadius: BorderRadius.circular(30),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black45,
-                              offset: Offset(2, 2),
-                              blurRadius: 4,
-                            ),
-                            BoxShadow(
-                              color: pink,
-                              offset: Offset(0, 10),
-                            ),
-                          ],
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(5),
-                          child: ListTile(
-                            leading: Container(
-                              width: 40,
-                              height: 40,
-                              child: Image.asset(
-                                '../assets/images/writing.png',
-                                // width: 150,
-                                // height: 150,
-                                fit: BoxFit.cover,
+                      Padding(
+                        padding: const EdgeInsets.only(top: 20),
+                        child: Container(
+                          width: MediaQuery.of(context).size.width - 50,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(30),
+                            color: lightPurple,
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black45,
+                                offset: Offset(2, 2),
+                                blurRadius: 4,
                               ),
-                            ),
-                            title: Text(
-                              'Writing',
-                              style: TextStyle(
-                                fontSize: 30,
-                                color: Colors.white,
-                                fontWeight: FontWeight.w700,
+                              BoxShadow(
+                                color: purple,
+                                offset: Offset(0, 10),
                               ),
-                            ),
-                            subtitle: Text(
-                              'Words are wings to your imagination!',
-                              style: TextStyle(
-                                fontSize: 20,
-                                color: Colors.white,
+                            ],
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(5),
+                            child: ListTile(
+                              leading: Container(
+                                width: 40,
+                                height: 40,
+                                child: Image.asset(
+                                  '../assets/images/reading.png',
+                                  // width: 150,
+                                  // height: 150,
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                              title: Text(
+                                'Reading',
+                                style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                              subtitle: Text(
+                                'Today a reader, tomorrow a leader!',
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                ),
                               ),
                             ),
                           ),
                         ),
                       ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(top: 20),
-                      child: Container(
-                        width: MediaQuery.of(context).size.width - 50,
-                        decoration: BoxDecoration(
-                          color: lightBlue,
-                          borderRadius: BorderRadius.circular(30),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black45,
-                              offset: Offset(2, 2),
-                              blurRadius: 4,
-                            ),
-                            BoxShadow(
-                              color: blue,
-                              offset: Offset(0, 10),
-                            ),
-                          ],
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(5),
-                          child: ListTile(
-                            leading: Container(
-                              width: 40,
-                              height: 40,
-                              child: Image.asset(
-                                '../assets/images/speaking.png',
-                                // width: 150,
-                                // height: 150,
-                                fit: BoxFit.cover,
+                      Padding(
+                        padding: const EdgeInsets.only(top: 20),
+                        child: Container(
+                          width: MediaQuery.of(context).size.width - 50,
+                          decoration: BoxDecoration(
+                            color: lightPink,
+                            borderRadius: BorderRadius.circular(30),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black45,
+                                offset: Offset(2, 2),
+                                blurRadius: 4,
                               ),
-                            ),
-                            title: Text(
-                              'Speaking',
-                              style: TextStyle(
-                                fontSize: 30,
-                                color: Colors.white,
-                                fontWeight: FontWeight.w700,
+                              BoxShadow(
+                                color: pink,
+                                offset: Offset(0, 10),
                               ),
-                            ),
-                            subtitle: Text(
-                              'Grab a mic, the world is your stage!',
-                              style: TextStyle(
-                                fontSize: 20,
-                                color: Colors.white,
+                            ],
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(5),
+                            child: ListTile(
+                              leading: Container(
+                                width: 40,
+                                height: 40,
+                                child: Image.asset(
+                                  '../assets/images/writing.png',
+                                  // width: 150,
+                                  // height: 150,
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                              title: Text(
+                                'Writing',
+                                style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                              subtitle: Text(
+                                'Words are wings to your imagination!',
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                ),
                               ),
                             ),
                           ),
                         ),
                       ),
-                    ),
-                  ],
+                      Padding(
+                        padding: const EdgeInsets.only(top: 20),
+                        child: Container(
+                          width: MediaQuery.of(context).size.width - 50,
+                          decoration: BoxDecoration(
+                            color: lightBlue,
+                            borderRadius: BorderRadius.circular(30),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black45,
+                                offset: Offset(2, 2),
+                                blurRadius: 4,
+                              ),
+                              BoxShadow(
+                                color: blue,
+                                offset: Offset(0, 10),
+                              ),
+                            ],
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(5),
+                            child: ListTile(
+                              leading: Container(
+                                width: 40,
+                                height: 40,
+                                child: Image.asset(
+                                  '../assets/images/speaking.png',
+                                  // width: 150,
+                                  // height: 150,
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                              title: Text(
+                                'Speaking',
+                                style: TextStyle(
+                                  fontSize: 30,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                              subtitle: Text(
+                                'Grab a mic, the world is your stage!',
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),
