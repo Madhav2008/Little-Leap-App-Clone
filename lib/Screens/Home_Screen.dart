@@ -16,16 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: primary,
       body: Container(
         child: Column(
-          children: [DraggableFab(
-                        child: FloatingActionButton(
-                          onPressed: () {
-                            //action after pressing this button
-                          },
-                          child: Image.asset(
-                            '../assets/images/My.png',
-                          ),
-                        ),
-                      ),
+          children: [
             Padding(
               padding: const EdgeInsets.only(
                 top: 15,
@@ -309,7 +300,16 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
               ),
-            ),
+            ),DraggableFab(
+                        child: FloatingActionButton(
+                          onPressed: () {
+                            //action after pressing this button
+                          },
+                          child: Image.asset(
+                            '../assets/images/My.png',
+                          ),
+                        ),
+                      ),
           ],
         ),
       ),
