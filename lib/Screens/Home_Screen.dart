@@ -16,10 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
       floatingActionButton: DraggableFab(
         child: FloatingActionButton(
           onPressed: () {},
-          child: CircleAvatar(
-            backgroundImage: AssetImage('../assets/images/My.png'),
-            radius: 25,
-          ),
+          child: AssetImage('../assets/images/My.png')
         ),
       ),
       backgroundColor: primary,
