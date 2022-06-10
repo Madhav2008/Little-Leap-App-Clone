@@ -33,15 +33,15 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               child: ListTile(
                 leading: Container(
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(25),
-            ),
-            child: Image.asset(
-              '../assets/images/My.png',
-              width: 80,
-              height: 80,
-            ),
-          ),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(25),
+                  ),
+                  child: Image.asset(
+                    '../assets/images/My.png',
+                    width: 80,
+                    height: 80,
+                  ),
+                ),
                 title: Text(
                   'Hello Madhav!',
                   style: TextStyle(
