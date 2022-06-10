@@ -16,15 +16,9 @@ class _HomeScreenState extends State<HomeScreen> {
       floatingActionButton: DraggableFab(
         child: FloatingActionButton(
           onPressed: () {},
-          child: Container(
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(25),
-            ),
-            child: Image.asset(
-              '../assets/images/My.png',
-              width: 80,
-              height: 80,
-            ),
+          child: CircleAvatar(
+            backgroundImage: AssetImage('../assets/images/My.png'),
+            radius: 25,
           ),
         ),
       ),
@@ -38,10 +32,16 @@ class _HomeScreenState extends State<HomeScreen> {
                 left: 10,
               ),
               child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage('../assets/images/My.png'),
-                  radius: 25,
-                ),
+                leading: Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(25),
+            ),
+            child: Image.asset(
+              '../assets/images/My.png',
+              width: 80,
+              height: 80,
+            ),
+          ),
                 title: Text(
                   'Hello Madhav!',
                   style: TextStyle(
