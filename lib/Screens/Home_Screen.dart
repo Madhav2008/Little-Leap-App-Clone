@@ -101,16 +101,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
-                      DraggableFab(
-                        child: FloatingActionButton(
-                          onPressed: () {
-                            //action after pressing this button
-                          },
-                          child: Image.asset(
-                            '../assets/images/My.png',
-                          ),
-                        ),
-                      ),
                       Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: Container(
