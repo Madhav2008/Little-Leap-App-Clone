@@ -37,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   radius: 25,
                 ),
                 title: Text(
-                  'Hello Madhav!',
+                  'Hello Madhav Arora!',
                   style: TextStyle(
                     fontSize: 25,
                     color: Colors.white,
