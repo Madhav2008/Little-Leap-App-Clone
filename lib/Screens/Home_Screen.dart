@@ -15,8 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       floatingActionButton: DraggableFab(
         child: FloatingActionButton(
-          onPressed: () {
-          },
+          onPressed: () {},
           child: CircleAvatar(
             backgroundImage: AssetImage('../assets/images/My.png'),
             radius: 25,
