@@ -108,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           },
                           child:Image.asset(
                       '../assets/images/back.jpg',
-                    ),,
+                    ),
                         ),
                       ),
                       Padding(
