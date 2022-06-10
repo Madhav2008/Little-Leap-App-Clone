@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: DraggableFab(
-        child: FloatingActionButton(
+        child: FloatingActionButton(autofocus: true,
           onPressed: () {},
           child: CircleAvatar(
             backgroundImage: AssetImage('../assets/images/My.png'),
