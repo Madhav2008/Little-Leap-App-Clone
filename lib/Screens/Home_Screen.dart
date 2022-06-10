@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: FloatingActionButton(
           onPressed: () {},
           child: Container(
-            decoration: BoxDecoration(borderRadius: BorderRadius.circular(25)),
+            decoration: BoxDecoration(borderRadius: BorderRadius.circular(25),),
             child: Image.asset(
               '../assets/images/My.png',
               width: 50,
