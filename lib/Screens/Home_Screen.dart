@@ -264,7 +264,16 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         child: Padding(
                           padding: const EdgeInsets.all(5),
-                          child: ListTile(
+                          child: ListTile(leading: Container(
+                              width: 40,
+                              height: 40,
+                              child: Image.asset(
+                                '../assets/images/writing.png',
+                                // width: 150,
+                                // height: 150,
+                                fit: BoxFit.cover,
+                              ),
+                            ),
                             title: Text(
                               'Speaking',
                               style: TextStyle(
