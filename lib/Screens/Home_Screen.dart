@@ -106,7 +106,9 @@ class _HomeScreenState extends State<HomeScreen> {
                           onPressed: () {
                             //action after pressing this button
                           },
-                          child: Icon(Icons.add),
+                          child: Image.asset(
+                            '../assets/images/My.png',
+                          ),
                         ),
                       ),
                       Padding(
