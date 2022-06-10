@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Container(
         child: Column(
           children: [
-            floatingActionButton:DraggableFab(
+            floatingActionButton: DraggableFab(
               child: FloatingActionButton(
                 onPressed: () {
                   //action after pressing this button
